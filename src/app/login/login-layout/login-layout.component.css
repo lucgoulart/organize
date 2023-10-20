@@ -1,0 +1,100 @@
+img{
+  background-color: #000;
+}
+.background-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  object-fit: cover; /* A imagem se ajustará automaticamente ao tamanho do elemento */
+}
+
+.description-container{
+  Width: 640px;
+  Height:292px;
+  margin: 0 auto;
+  position: relative; /* Para que o formulário não se mova com o conteúdo acima */
+  z-index: 1; /* Coloca o contêiner do formulário à frente da imagem de fundo */
+  color: #fff;
+  font-size: 62px;
+  font-weight: 700;
+}
+
+.login-container {
+  background-color: #fff;
+  Width: 640px;
+  Height:701px;
+  margin: 0 auto; /* Centralize o contêiner horizontalmente */
+  border-radius: 10px; /* Adicione cantos arredondados se desejar */
+  position: relative; /* Para que o formulário não se mova com o conteúdo acima */
+  z-index: 1; /* Coloca o contêiner do formulário à frente da imagem de fundo */
+}
+
+.content{
+  display: flex;
+  align-items: center;
+  margin-top: 140px;
+}
+.entrar{
+font-size: 36px;
+margin-left: 50px;
+margin-top: 25px;
+font-weight: bold;
+}
+.crie-sua-conta{
+font-size: 24px;
+margin-right: 50px;
+margin-top: 50px;
+color: #618434;
+text-decoration: none;
+}
+.email{
+font-size: 24px;
+}
+.senha{
+  font-size: 24px;
+
+}
+.esqueci-senha{
+font-size: 18px;
+text-decoration: none;
+}
+.title{
+  display: flex;
+  justify-content: space-between;
+}
+.content-input{
+margin-left: 50px;
+}
+input{
+  width: 486px;
+  height: 34px;
+  border-radius: 5px;
+  border: none;
+  background-color: #EDEDED !important;
+}
+.content-esqueci-senha{
+  display: flex;
+  justify-content: end;
+  margin-right: 100px;
+  margin-top: 20px;
+}
+.body-login{
+  margin-top: 50px;
+}
+.content-button-continuar{
+  display: flex;
+  justify-content: center;
+  margin-top: 220px;
+}
+.button-continuar{
+width: 172px;
+height: 55px;
+background-color: #121212;
+color: #fff;
+font-size: 32px;
+border-radius: 5px;
+cursor: pointer;
+}
