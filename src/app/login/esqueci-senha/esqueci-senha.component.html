@@ -1,1 +1,32 @@
-<div>ESQUECI SENHA EM MANUTENÇÃO!</div>
+<img class="background-image" src="../assets/imagens/img-esqueci-senha-body.svg" alt="Imagem de fundo">
+<div class="content">
+<div class="description-container">
+<span>O SITE QUE VOCÊ<br> PRECISA PARA <br> ORGANIZAR SUAS<br>CONTAS</span>
+</div>
+<div class="esqueci-senha-container">
+  <div class="title">
+    <span class="esqueci-senha">Redefina sua senha</span>
+  </div>
+  <div class="body-esqueci-senha">
+  <div class="content-input">
+    <p class="redefinir-senha">Informe o código que foi enviado pelo e-mail <b>meuemail@hotmail.com.</b> </p>
+    <div class="container-input-redefinir-senha">
+      <input class="input-redefinir-senha" data-order="1" maxlength="1" (input)="onInput($event)">
+      <input class="input-redefinir-senha" data-order="2" maxlength="1" (input)="onInput($event)">
+      <input class="input-redefinir-senha" data-order="3" maxlength="1" (input)="onInput($event)">
+      <input class="input-redefinir-senha" data-order="4" maxlength="1" (input)="onInput($event)">
+      <input class="input-redefinir-senha" data-order="5" maxlength="1" (input)="onInput($event)">
+    </div>
+    <p class="mensagem">Caso não tenha localizado na caixa principal, verifique no lixo eletrônico<br> e caixa de spam.</p>
+</div>
+  <div class="content-button-voltar">
+    <button routerLink="/login" class="button-voltar">Voltar</button>
+    <a routerLink="/esqueci-senha" class="reenviar-codigo">Reenviar o código</a>
+  </div>
+</div>
+</div>
+
+
+
+
+

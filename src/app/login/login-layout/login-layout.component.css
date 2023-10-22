@@ -67,6 +67,7 @@ text-decoration: none;
 }
 .content-input{
 margin-left: 50px;
+margin-top: 7rem;
 }
 input{
   width: 486px;
@@ -87,7 +88,7 @@ input{
 .content-button-continuar{
   display: flex;
   justify-content: center;
-  margin-top: 220px;
+  margin-top: 10rem;
 }
 .button-continuar{
 width: 172px;
