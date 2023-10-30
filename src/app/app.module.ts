@@ -9,6 +9,7 @@ import { RouterModule } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 import { EsqueciSenhaComponent } from './login/esqueci-senha/esqueci-senha.component';
 import { CadastroComponent } from './login/cadastro/cadastro.component';
+import { LogadoPgnInicialComponent } from './usuario-logado/logado-pgn-inicial/logado-pgn-inicial.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,6 +17,7 @@ import { CadastroComponent } from './login/cadastro/cadastro.component';
     LoginLayoutComponent,
     EsqueciSenhaComponent,
     CadastroComponent,
+    LogadoPgnInicialComponent,
   ],
   imports: [
     BrowserModule,

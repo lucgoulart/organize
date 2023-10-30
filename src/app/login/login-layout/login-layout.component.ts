@@ -1,6 +1,7 @@
 import { MockAuthService } from './../../services/MockAuthService';
 import { FormsModule } from '@angular/forms';
 import { Component } from '@angular/core';
+import {Router, RouterStateSnapshot, UrlTree,} from '@angular/router';
 
 @Component({
   selector: 'app-login-layout',
@@ -14,7 +15,7 @@ export class LoginLayoutComponent {
   password: string = '';
   loginError: boolean = false;
 
-  constructor(private MockAuthService: MockAuthService) {}
+  constructor(private MockAuthService: MockAuthService, private router: Router,) {}
 
   onContinueClick() {
     const isAuthenticated = this.MockAuthService.authenticate(
@@ -24,13 +25,13 @@ export class LoginLayoutComponent {
 
     if (isAuthenticated) {
       // O usuário está autenticado, você pode redirecioná-lo para a página principal
-      console.log('Usuário autenticado!');
+      this.router.navigate(['/pagina-inicial-logado']);
       this.loginError = false;
     } else {
       // Credenciais inválidas, exibir erro de login
-      console.log('Credenciais inválidas');
       this.loginError = true;
     }
   }
 }
+
 
