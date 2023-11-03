@@ -20,24 +20,17 @@
   </div>
 </div>
   <div class="content-button-continuar">
-    <button class="button-continuar" (click) = "onContinueClick()">Continuar</button>
+    <button class="button-continuar" (click)="onContinueClick()">continuar</button>
   </div>
 </div>
 </div>
 
-<!-- <div *ngIf="!userIsLoggedIn" class="modal-validacao-cadastro-rep-legal">
-  <div *ngIf="!userIsLoggedIn" class="modal-background-dark"></div>
-  <div *ngIf="!userIsLoggedIn" class="modal modal-overlay" id="modalConfirmacao">
-    <div class="modal-content">
-      <img class="icone-alerta" src="../../../../../assets/images/icon_atencao.svg" alt="Ícone de alerta">
-      <h2 class="title-modal">REPRESENTANTE LEGAL</h2>
-      <div>
-      <p class="aviso-modal">Para efetuar o cadastro do <b>Representante legal</b> você deverá fazer login com seu CPF e SENHA. se você não possui cadastro, acesse<a (click)= "redirecionarCadastar()" class="link-primeiro-acesso" > meu primeiro acesso</a>
-        ou caso tenha esquecido a senha, acesse <a (click) ="redirecionarSenha()" class="link-esqueci-senha">esqueci minha senha </a> para continuar o processo</p>
-      </div>
-      <button (click)="closeModal()" class="close-modal">
-      </button>
-    </div>
+<div class="modal-background-dark" *ngIf="showModal">
+  <div class="modal-validacao-cadastro-rep-legal">
+    <h1>Email ou senha incorretos!</h1>
+    <p>Para acessar os serviços do <b>Organize</b> você precisa possuir EMAIL e SENHA válidos, se você possui cadastro e deseja redefinir sua senha acesse <a routerLink="/esqueci-senha">esqueci minha senha</a> se você não possui cadastro e deseja se cadastrar acesse <a routerLink="/cadastro">cadastrar-se</a>.</p>
+    <button (click)="closeModal()" class="close-modal">Fechar</button>
   </div>
-</div> -->
+</div>
+
 

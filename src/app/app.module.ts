@@ -10,15 +10,17 @@ import { FormsModule } from '@angular/forms';
 import { EsqueciSenhaComponent } from './login/esqueci-senha/esqueci-senha.component';
 import { CadastroComponent } from './login/cadastro/cadastro.component';
 import { LogadoPgnInicialComponent } from './usuario-logado/logado-pgn-inicial/logado-pgn-inicial.component';
+import { HeaderComponent } from './header/header.component';
 @NgModule({
-  declarations: [
+  declarations: [	
     AppComponent,
     PaginaInicialComponent,
     LoginLayoutComponent,
     EsqueciSenhaComponent,
     CadastroComponent,
     LogadoPgnInicialComponent,
-  ],
+      HeaderComponent
+   ],
   imports: [
     BrowserModule,
     AppRoutingModule,

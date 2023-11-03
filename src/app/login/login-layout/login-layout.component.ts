@@ -14,8 +14,18 @@ export class LoginLayoutComponent {
   email: string = '';
   password: string = '';
   loginError: boolean = false;
+  showModal: boolean = false;
+
 
   constructor(private MockAuthService: MockAuthService, private router: Router,) {}
+
+  openModal(){
+    this.showModal = true;
+  }
+
+  closeModal(){
+    this.showModal = false;
+  }
 
   onContinueClick() {
     const isAuthenticated = this.MockAuthService.authenticate(
@@ -30,6 +40,10 @@ export class LoginLayoutComponent {
     } else {
       // Credenciais inválidas, exibir erro de login
       this.loginError = true;
+      this.openModal()
+
+
+
     }
   }
 }
