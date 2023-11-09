@@ -80,9 +80,6 @@ li{
 .li-style{
   margin-right: 10px;
 }
-.baseboard-list{
-  margin-top: 35px;
-}
 .description-static{
   margin-left: 280px;
 }
@@ -107,44 +104,12 @@ li{
 .descr-img-benefits{
   display: flex;
 }
-.baseboard{
-  background-color: #000000;
-  display: flex;
-  justify-content: space-between;
-}
-.img-baseboard{
-margin-top: 50px;
-}
-.contact-organize{
-  color: #b2b2b2b2;
-  font-size: 24px;
-  margin-top: 50px;
-  margin-right: 120px;
-}
-.acess-organize{
-  color: #fff;
-  font-size: 24px;
-  margin-top: 50px;
 
-}
 a{
   color: #fff;
   text-decoration: none;
 }
-.baseboard-rights{
-  color: #fff;
-  background-color: #000000;
-}
-.rights{
-  margin: 0px;
-  margin-left: 50px;
-  font-size: 18px;
-}
-.static-baseboard-finish{
-  height: 100px;
-  width: 100%;
-  background-color: #000000;
-}
+
 /*for desktop */
 @media(min-width: 992px){
 

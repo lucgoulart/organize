@@ -11,15 +11,17 @@ import { EsqueciSenhaComponent } from './login/esqueci-senha/esqueci-senha.compo
 import { CadastroComponent } from './login/cadastro/cadastro.component';
 import { LogadoPgnInicialComponent } from './usuario-logado/logado-pgn-inicial/logado-pgn-inicial.component';
 import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
 @NgModule({
-  declarations: [	
+  declarations: [		
     AppComponent,
     PaginaInicialComponent,
     LoginLayoutComponent,
     EsqueciSenhaComponent,
     CadastroComponent,
     LogadoPgnInicialComponent,
-      HeaderComponent
+      HeaderComponent,
+      FooterComponent
    ],
   imports: [
     BrowserModule,
