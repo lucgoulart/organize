@@ -12,6 +12,7 @@ import { CadastroComponent } from './login/cadastro/cadastro.component';
 import { LogadoPgnInicialComponent } from './usuario-logado/logado-pgn-inicial/logado-pgn-inicial.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { OrganizarMinhasContasComponent } from './organizar-minhas-contas/organizar-minhas-contas.component';
 @NgModule({
   declarations: [		
     AppComponent,
@@ -21,7 +22,8 @@ import { FooterComponent } from './footer/footer.component';
     CadastroComponent,
     LogadoPgnInicialComponent,
       HeaderComponent,
-      FooterComponent
+      FooterComponent,
+      OrganizarMinhasContasComponent
    ],
   imports: [
     BrowserModule,
