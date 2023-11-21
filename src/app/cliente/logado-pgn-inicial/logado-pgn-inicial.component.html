@@ -1,4 +1,4 @@
-<app-header></app-header>
+ <app-header></app-header>
 <div class="body-content">
   <div class="msg-welcome">
     <h1>Olá, Fulano</h1>
@@ -11,7 +11,8 @@
   <div class="option-organize">
 
     <div class="block-description">
-      <span class="details-span">Organizar minhas contas</span>
+      <button (click)=" openOrganizarMinhasContas()" class="details-span">Organizar minhas contas</button>
+
     </div>
 
     <div class="block-description">
@@ -29,4 +30,6 @@
 
 
   </div>
+  <router-outlet></router-outlet>
 </div>
+<!-- <app-footer></app-footer> -->

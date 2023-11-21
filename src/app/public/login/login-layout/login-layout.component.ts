@@ -1,4 +1,4 @@
-import { MockAuthService } from './../../services/MockAuthService';
+import { MockAuthService } from './../../../services/MockAuthService';
 import { FormsModule } from '@angular/forms';
 import { Component } from '@angular/core';
 import {Router, RouterStateSnapshot, UrlTree,} from '@angular/router';
@@ -17,7 +17,7 @@ export class LoginLayoutComponent {
   showModal: boolean = false;
 
 
-  constructor(private MockAuthService: MockAuthService, private router: Router,) {}
+  constructor(private MockAuthService: MockAuthService, private router: Router) {}
 
   openModal(){
     this.showModal = true;

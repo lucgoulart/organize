@@ -1,5 +1,6 @@
+import { MockAuthService } from './../../services/MockAuthService';
 import { Component } from "@angular/core";
-import { MockAuthService } from "../services/MockAuthService";
+
 
 
 @Component({
