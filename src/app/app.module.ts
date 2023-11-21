@@ -9,6 +9,7 @@ import { RouterModule } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 import { FooterComponent } from './cliente/footer/footer.component';
 import { LogadoPgnInicialModule } from './cliente/logado-pgn-inicial/logado-pgn-inicial.module';
+import { CadastroModule } from './public/login/cadastro/cadastro.module';
 
 
 
@@ -23,6 +24,7 @@ import { LogadoPgnInicialModule } from './cliente/logado-pgn-inicial/logado-pgn-
 ],
   imports: [
     BrowserModule,
+    CadastroModule,
     LogadoPgnInicialModule,
     AppRoutingModule,
     RouterModule,

@@ -5,6 +5,7 @@ import { LoginLayoutComponent } from './public/login/login-layout/login-layout.c
 import { EsqueciSenhaComponent } from './public/login/esqueci-senha/esqueci-senha.component';
 import { CadastroComponent } from './public/login/cadastro/cadastro.component';
 import { LogadoPgnInicialComponent } from './cliente/logado-pgn-inicial/logado-pgn-inicial.component';
+import { HeaderComponent } from './cliente/header/header.component';
 
 
 const routes: Routes = [

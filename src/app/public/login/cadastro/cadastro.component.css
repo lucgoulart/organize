@@ -49,6 +49,7 @@ margin-right: 50px;
 margin-top: 50px;
 color: #618434;
 text-decoration: none;
+cursor: pointer;
 }
 .email{
 font-size: 24px;
