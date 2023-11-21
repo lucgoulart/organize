@@ -7,10 +7,11 @@ import { LoginLayoutComponent } from './public/login/login-layout/login-layout.c
 import { PaginaInicialComponent } from './public/pagina-inicial/pagina.inicial.component';
 import { RouterModule } from '@angular/router';
 import { FormsModule } from '@angular/forms';
-import { HeaderComponent } from './cliente/header/header.component';
 import { FooterComponent } from './cliente/footer/footer.component';
-import { OrganizarMinhasContasComponent } from './cliente/organizar-minhas-contas/organizar-minhas-contas.component';
-import { LogadoPgnInicialComponent } from './cliente/logado-pgn-inicial/logado-pgn-inicial.component';
+import { LogadoPgnInicialModule } from './cliente/logado-pgn-inicial/logado-pgn-inicial.module';
+
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,16 +19,16 @@ import { LogadoPgnInicialComponent } from './cliente/logado-pgn-inicial/logado-p
     PaginaInicialComponent,
     EsqueciSenhaComponent,
     EsqueciSenhaComponent,
-    LogadoPgnInicialComponent,
-    OrganizarMinhasContasComponent,
-      HeaderComponent,
-      FooterComponent,
+    FooterComponent,
 ],
   imports: [
     BrowserModule,
+    LogadoPgnInicialModule,
     AppRoutingModule,
     RouterModule,
-    FormsModule
+    FormsModule,
+    RouterModule.forRoot([]),
+
 
   ],
   providers: [],

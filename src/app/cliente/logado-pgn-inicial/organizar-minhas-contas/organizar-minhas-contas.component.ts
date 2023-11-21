@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-organizar-minhas-contas',
@@ -6,5 +7,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./organizar-minhas-contas.component.css']
 })
 export class OrganizarMinhasContasComponent {
+  public mostrarComponente: boolean = false;
 
+  constructor(private router: Router) {}
+
+  toggleComponentVisibility() {
+    this.mostrarComponente = !this.mostrarComponente;
+  }
 }
+

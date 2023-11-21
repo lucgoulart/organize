@@ -5,7 +5,7 @@ import { LoginLayoutComponent } from './public/login/login-layout/login-layout.c
 import { EsqueciSenhaComponent } from './public/login/esqueci-senha/esqueci-senha.component';
 import { CadastroComponent } from './public/login/cadastro/cadastro.component';
 import { LogadoPgnInicialComponent } from './cliente/logado-pgn-inicial/logado-pgn-inicial.component';
-import { OrganizarMinhasContasComponent } from './cliente/organizar-minhas-contas/organizar-minhas-contas.component';
+
 
 const routes: Routes = [
   { path: '', component: PaginaInicialComponent },
@@ -14,7 +14,6 @@ const routes: Routes = [
   {path: 'esqueci-senha' , component: EsqueciSenhaComponent},
   {path: 'cadastro' , component: CadastroComponent},
   {path: 'pagina-inicial-logado' , component: LogadoPgnInicialComponent},
-  {path: 'organizar-minhas-contas', component: OrganizarMinhasContasComponent}
 
 
 ];
