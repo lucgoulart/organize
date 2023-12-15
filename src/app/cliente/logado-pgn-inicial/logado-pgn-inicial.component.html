@@ -10,9 +10,13 @@
 
   <div class="option-organize">
 
-    <div class="block-description">
-      <a (click)="organizarMinhasContasComponent.toggleComponentVisibility()" class="details-span">Organizar minhas contas</a>
+    <div class="block-description" [class.link-clicado]="organizarMinhasContasComponent.mostrarComponente">
+      <a (click)="organizarMinhasContasComponent.toggleComponentVisibility()"
+         class="details-span">
+        Organizar minhas contas
+      </a>
     </div>
+
 
     <div class="block-description">
       <span class="details-span">Contas e valores</span>
@@ -27,7 +31,7 @@
       <span class="details-span">Calculadora virtual</span>
     </div>
 
-    <router-outlet></router-outlet>
+    <!-- <router-outlet></router-outlet> -->
 
   </div>
 </div>
