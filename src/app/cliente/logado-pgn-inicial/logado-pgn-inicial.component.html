@@ -10,16 +10,18 @@
 
   <div class="option-organize">
 
-    <div class="block-description" [class.link-clicado]="organizarMinhasContasComponent.mostrarComponente">
-      <a (click)="organizarMinhasContasComponent.toggleComponentVisibility()"
-         class="details-span">
+    <div class="block-description">
+      <a class="details-span">
         Organizar minhas contas
       </a>
     </div>
 
 
-    <div class="block-description">
-      <span class="details-span">Contas e valores</span>
+    <div class="block-description" [class.link-clicado]="contasValoresComponent.mostrarComponente">
+      <a (click)="contasValoresComponent.toggleComponentVisibility()"
+         class="details-span">
+        Contas e valores
+      </a>
     </div>
 
     <div class="block-description">
@@ -36,4 +38,4 @@
   </div>
 </div>
 <!-- <app-footer></app-footer> -->
-<app-organizar-minhas-contas #organizarMinhasContasComponent></app-organizar-minhas-contas>
+<app-contas-valores #contasValoresComponent></app-contas-valores>

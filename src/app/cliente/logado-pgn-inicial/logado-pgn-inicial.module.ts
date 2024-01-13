@@ -6,6 +6,7 @@ import { RouterModule } from '@angular/router';
 import { OrganizarMinhasContasComponent } from './organizar-minhas-contas/organizar-minhas-contas.component';
 import { LogadoPgnInicialComponent } from './logado-pgn-inicial.component';
 import { HeaderModule } from '../header/header.module';
+import { ContasValoresComponnet } from './contas-valores/contas.valores.component';
 
 
 
@@ -13,6 +14,7 @@ import { HeaderModule } from '../header/header.module';
   declarations: [
     LogadoPgnInicialComponent,
     OrganizarMinhasContasComponent,
+    ContasValoresComponnet
   ],
   imports: [
     BrowserModule,

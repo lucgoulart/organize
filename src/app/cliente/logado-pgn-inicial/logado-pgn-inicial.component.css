@@ -33,7 +33,7 @@ h2{
 }
 .link-clicado {
   color: black; /* Cor do texto */
-  background-color: white !important; /* Cor de fundo */
+  background-color: #f7f7f7 !important; /* Cor de fundo */
 }
 
 .option-organize{
