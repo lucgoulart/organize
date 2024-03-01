@@ -7,19 +7,22 @@ import { OrganizarMinhasContasComponent } from './organizar-minhas-contas/organi
 import { LogadoPgnInicialComponent } from './logado-pgn-inicial.component';
 import { HeaderModule } from '../header/header.module';
 import { ContasValoresComponnet } from './contas-valores/contas.valores.component';
-
+import { CalculadoraVirtualComponnet } from './calculadora-virtual/calculadora-virtual.component';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
   declarations: [
     LogadoPgnInicialComponent,
     OrganizarMinhasContasComponent,
-    ContasValoresComponnet
+    ContasValoresComponnet,
+    CalculadoraVirtualComponnet
   ],
   imports: [
     BrowserModule,
     LogadoPgnInicialRouting,
-    HeaderModule
+    HeaderModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent],

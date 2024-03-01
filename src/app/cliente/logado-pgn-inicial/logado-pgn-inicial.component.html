@@ -29,8 +29,11 @@
     </div>
 
 
-    <div class="block-description">
-      <span class="details-span">Calculadora virtual</span>
+    <div class="block-description" [class.link-clicado]="calculadoraVirtualComponent.mostrarComponente">
+      <a (click)="calculadoraVirtualComponent.toggleComponentVisibility()"
+      class="details-span">
+     Calculadora virtual
+   </a>
     </div>
 
     <!-- <router-outlet></router-outlet> -->
@@ -39,3 +42,4 @@
 </div>
 <!-- <app-footer></app-footer> -->
 <app-contas-valores #contasValoresComponent></app-contas-valores>
+<app-calculadora-virtual #calculadoraVirtualComponent></app-calculadora-virtual>

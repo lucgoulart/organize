@@ -13,4 +13,7 @@ export class LogadoPgnInicialComponent {
   openOrganizarMinhasContas(){
     this.router.navigate(['/organizar-minhas-contas'])
   }
+    openCalculadoraVirtual(){
+      this.router.navigate(['/calculadora-virtual'])
+  }
 }

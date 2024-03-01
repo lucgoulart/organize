@@ -1,0 +1,58 @@
+
+
+.input-result{
+  width: 1094px;
+  height: 120px;
+}
+button{
+  width: 139px;
+  height: 60px;
+  margin: 10px;
+}
+.column-buttons{
+  display: flex;
+}
+.maior-button{
+  width: 298px;
+}
+
+.title-value{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.list{
+  display: flex;
+  flex-direction: column;
+  background-color: #EDEDED;
+}
+.option-list{
+  padding: 5px;
+  font-size: 18px;
+}
+.content-mercado-contas-gerais{
+  background-color: #f7f7f7;
+}
+.content-mercado{
+  max-width: 560px;
+  width: 100%;
+}
+.content-contas-gerais{
+  max-width: 560px;
+  width: 100%;
+}
+.img-title{
+  display: flex;
+}
+.edit-img{
+  margin-right: 5px;
+}
+.static-position{
+  position: absolute;
+  top: 54%;
+  width: 100%;
+  background-color: #121212;
+  display: flex;
+  justify-content: center;
+}
+
